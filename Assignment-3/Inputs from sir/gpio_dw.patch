@@ -1,0 +1,20 @@
+--- ./zephyr_git-v1.10.0/drivers/gpio/gpio_dw.c	2017-12-08 12:32:22.000000000 -0700
++++ ./zephyr-zephyr-v1.10.0/drivers/gpio/gpio_dw.c	2018-03-08 16:28:43.619664774 -0700
+@@ -435,6 +435,7 @@
+ static inline int gpio_dw_setup(struct device *dev)
+ {
+ 	struct gpio_dw_runtime *context = dev->driver_data;
++	struct gpio_dw_config *config = dev->config->config_info;
+ 
+ 	pci_bus_scan_init();
+ 
+@@ -444,6 +445,9 @@
+ 
+ #ifdef CONFIG_PCI_ENUMERATION
+ 	context->base_addr = context->pci_dev.addr;
++//	context->irq_num = context->pci_dev.irq;	// this line was in 1.5.0
++	config->irq_num = context->pci_dev.irq;
++
+ #endif
+ 	pci_enable_regs(&context->pci_dev);
+ 
