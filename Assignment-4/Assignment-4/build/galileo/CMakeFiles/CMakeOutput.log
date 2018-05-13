@@ -1,0 +1,444 @@
+The target system is: Generic -  - x86
+The host system is: Linux - 4.13.0-38-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Performing C SOURCE FILE Test toolchain_is_ok succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61381/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61381.dir/build.make CMakeFiles/cmTC_61381.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61381.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dtoolchain_is_ok -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -o CMakeFiles/cmTC_61381.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_61381
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61381.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dtoolchain_is_ok -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_61381.dir/src.c.obj  -o cmTC_61381 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nostartfiles succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ceae1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ceae1.dir/build.make CMakeFiles/cmTC_ceae1.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ceae1.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_nostartfiles -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -nostartfiles -o CMakeFiles/cmTC_ceae1.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ceae1
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceae1.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_nostartfiles -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_ceae1.dir/src.c.obj  -o cmTC_ceae1 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nodefaultlibs succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4285/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4285.dir/build.make CMakeFiles/cmTC_d4285.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4285.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_nodefaultlibs -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -nodefaultlibs -o CMakeFiles/cmTC_d4285.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d4285
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4285.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_nodefaultlibs -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_d4285.dir/src.c.obj  -o cmTC_d4285 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nostdlib succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_426a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_426a1.dir/build.make CMakeFiles/cmTC_426a1.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_426a1.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_nostdlib -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -nostdlib -o CMakeFiles/cmTC_426a1.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_426a1
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_426a1.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_nostdlib -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_426a1.dir/src.c.obj  -o cmTC_426a1 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_static succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_150bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_150bf.dir/build.make CMakeFiles/cmTC_150bf.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_150bf.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_static -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -static -o CMakeFiles/cmTC_150bf.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_150bf
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_150bf.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_static -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_150bf.dir/src.c.obj  -o cmTC_150bf 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_no_pie succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37960/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37960.dir/build.make CMakeFiles/cmTC_37960.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37960.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_no_pie -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -no-pie -o CMakeFiles/cmTC_37960.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_37960
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37960.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_no_pie -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_37960.dir/src.c.obj  -o cmTC_37960 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_asynchronous_unwind_tables_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5fd6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5fd6d.dir/build.make CMakeFiles/cmTC_5fd6d.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fd6d.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_fno_asynchronous_unwind_tables_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-asynchronous-unwind-tables -o CMakeFiles/cmTC_5fd6d.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5fd6d
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fd6d.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_fno_asynchronous_unwind_tables_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_5fd6d.dir/src.c.obj  -o cmTC_5fd6d 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pie_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1c89/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1c89.dir/build.make CMakeFiles/cmTC_d1c89.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1c89.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_fno_pie_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-pie -o CMakeFiles/cmTC_d1c89.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d1c89
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1c89.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_fno_pie_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_d1c89.dir/src.c.obj  -o cmTC_d1c89 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pic_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6dbef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6dbef.dir/build.make CMakeFiles/cmTC_6dbef.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6dbef.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_fno_pic_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-pic -o CMakeFiles/cmTC_6dbef.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6dbef
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dbef.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_fno_pic_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_6dbef.dir/src.c.obj  -o cmTC_6dbef 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_strict_overflow_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8bbb9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8bbb9.dir/build.make CMakeFiles/cmTC_8bbb9.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8bbb9.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_fno_strict_overflow_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-strict-overflow -o CMakeFiles/cmTC_8bbb9.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8bbb9
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bbb9.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_fno_strict_overflow_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_8bbb9.dir/src.c.obj  -o cmTC_8bbb9 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wno_pointer_sign_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47aba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47aba.dir/build.make CMakeFiles/cmTC_47aba.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47aba.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_Wno_pointer_sign_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wno-pointer-sign -o CMakeFiles/cmTC_47aba.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_47aba
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47aba.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_Wno_pointer_sign_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_47aba.dir/src.c.obj  -o cmTC_47aba 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wno_unused_but_set_variable_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b248/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b248.dir/build.make CMakeFiles/cmTC_0b248.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b248.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_Wno_unused_but_set_variable_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wno-unused-but-set-variable -o CMakeFiles/cmTC_0b248.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0b248
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b248.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_Wno_unused_but_set_variable_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_0b248.dir/src.c.obj  -o cmTC_0b248 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_reorder_functions_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf7f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf7f8.dir/build.make CMakeFiles/cmTC_bf7f8.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf7f8.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_fno_reorder_functions_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-reorder-functions -o CMakeFiles/cmTC_bf7f8.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bf7f8
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf7f8.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_fno_reorder_functions_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_bf7f8.dir/src.c.obj  -o cmTC_bf7f8 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_defer_pop_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73fae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73fae.dir/build.make CMakeFiles/cmTC_73fae.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73fae.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_fno_defer_pop_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-defer-pop -o CMakeFiles/cmTC_73fae.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_73fae
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73fae.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_fno_defer_pop_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_73fae.dir/src.c.obj  -o cmTC_73fae 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Werror_implicit_int_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de40b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de40b.dir/build.make CMakeFiles/cmTC_de40b.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de40b.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_Werror_implicit_int_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Werror=implicit-int -o CMakeFiles/cmTC_de40b.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_de40b
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de40b.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_Werror_implicit_int_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_de40b.dir/src.c.obj  -o cmTC_de40b 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl__X succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa807/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa807.dir/build.make CMakeFiles/cmTC_fa807.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa807.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_Wl__X -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wl,-X -o CMakeFiles/cmTC_fa807.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fa807
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa807.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_Wl__X -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_fa807.dir/src.c.obj  -o cmTC_fa807 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl__N succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5d76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5d76.dir/build.make CMakeFiles/cmTC_a5d76.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5d76.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_Wl__N -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wl,-N -o CMakeFiles/cmTC_a5d76.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a5d76
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5d76.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_Wl__N -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_a5d76.dir/src.c.obj  -o cmTC_a5d76 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl___gc_sections succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_062c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_062c7.dir/build.make CMakeFiles/cmTC_062c7.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_062c7.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_Wl___gc_sections -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wl,--gc-sections -o CMakeFiles/cmTC_062c7.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_062c7
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_062c7.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_Wl___gc_sections -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_062c7.dir/src.c.obj  -o cmTC_062c7 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl___build_id_none succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f839/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f839.dir/build.make CMakeFiles/cmTC_8f839.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f839.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_Wl___build_id_none -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wl,--build-id=none -o CMakeFiles/cmTC_8f839.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8f839
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f839.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_Wl___build_id_none -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_8f839.dir/src.c.obj  -o cmTC_8f839 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffunction_sections_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_020c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_020c0.dir/build.make CMakeFiles/cmTC_020c0.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_020c0.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_ffunction_sections_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -ffunction-sections -o CMakeFiles/cmTC_020c0.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_020c0
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_020c0.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_ffunction_sections_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_020c0.dir/src.c.obj  -o cmTC_020c0 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdata_sections_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3202e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3202e.dir/build.make CMakeFiles/cmTC_3202e.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3202e.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_fdata_sections_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fdata-sections -o CMakeFiles/cmTC_3202e.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3202e
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3202e.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_fdata_sections_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_3202e.dir/src.c.obj  -o cmTC_3202e 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_mpreferred_stack_boundary_2_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9fde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9fde.dir/build.make CMakeFiles/cmTC_c9fde.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9fde.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_mpreferred_stack_boundary_2_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -mpreferred-stack-boundary=2 -o CMakeFiles/cmTC_c9fde.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c9fde
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9fde.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_mpreferred_stack_boundary_2_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_c9fde.dir/src.c.obj  -o cmTC_c9fde 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_mno_sse_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1740a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1740a.dir/build.make CMakeFiles/cmTC_1740a.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1740a.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_mno_sse_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -mno-sse -o CMakeFiles/cmTC_1740a.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1740a
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1740a.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_mno_sse_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_1740a.dir/src.c.obj  -o cmTC_1740a 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_march_lakemont_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73eb9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73eb9.dir/build.make CMakeFiles/cmTC_73eb9.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73eb9.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_march_lakemont_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -march=lakemont -o CMakeFiles/cmTC_73eb9.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_73eb9
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73eb9.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_march_lakemont_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_73eb9.dir/src.c.obj  -o cmTC_73eb9 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_mtune_lakemont_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fb83/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6fb83.dir/build.make CMakeFiles/cmTC_6fb83.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6fb83.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_mtune_lakemont_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -mtune=lakemont -o CMakeFiles/cmTC_6fb83.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6fb83
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fb83.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_mtune_lakemont_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_6fb83.dir/src.c.obj  -o cmTC_6fb83 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_msoft_float_C succeeded with the following output:
+Change Dir: /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b378c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b378c.dir/build.make CMakeFiles/cmTC_b378c.dir/build
+make[1]: Entering directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b378c.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc   -Dcheck_msoft_float_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -msoft-float -o CMakeFiles/cmTC_b378c.dir/src.c.obj   -c /home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b378c
+/home/sushant/cmake-3.8.2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b378c.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc  -Dcheck_msoft_float_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_b378c.dir/src.c.obj  -o cmTC_b378c 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000008048098
+make[1]: Leaving directory '/home/sushant/Desktop/Assignment-4/build/galileo/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }

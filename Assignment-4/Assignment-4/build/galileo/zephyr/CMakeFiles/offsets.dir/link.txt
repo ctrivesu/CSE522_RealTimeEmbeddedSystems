@@ -1,0 +1,2 @@
+ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-ar qc liboffsets.a  CMakeFiles/offsets.dir/arch/x86/core/offsets/offsets.c.obj
+ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-ranlib liboffsets.a

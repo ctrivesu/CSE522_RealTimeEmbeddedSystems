@@ -1,0 +1,20 @@
+zephyr/linker.cmd: \
+ /home/sushant/Desktop/zephyr_1.10/arch/x86/soc/intel_quark/quark_x1000/linker.ld \
+ /home/sushant/Desktop/Assignment-4/build/galileo/zephyr/include/generated/autoconf.h \
+ /home/sushant/Desktop/Assignment-4/build/galileo/zephyr/include/generated/generated_dts_board.h \
+ /home/sushant/Desktop/zephyr_1.10/include/arch/x86/linker.ld \
+ /home/sushant/Desktop/zephyr_1.10/include/linker/linker-defs.h \
+ /home/sushant/Desktop/zephyr_1.10/include/toolchain.h \
+ /home/sushant/Desktop/zephyr_1.10/include/toolchain/gcc.h \
+ /home/sushant/Desktop/zephyr_1.10/include/toolchain/common.h \
+ /home/sushant/Desktop/zephyr_1.10/include/linker/sections.h \
+ /home/sushant/Desktop/zephyr_1.10/include/linker/section_tags.h \
+ /home/sushant/Desktop/zephyr_1.10/include/misc/util.h \
+ /home/sushant/Desktop/Assignment-4/build/galileo/zephyr/include/generated/offsets.h \
+ /home/sushant/Desktop/zephyr_1.10/include/linker/linker-tool.h \
+ /home/sushant/Desktop/zephyr_1.10/include/linker/linker-tool-gcc.h \
+ /home/sushant/Desktop/zephyr_1.10/include/linker/kobject-text.ld \
+ /home/sushant/Desktop/zephyr_1.10/include/linker/common-rom.ld \
+ /home/sushant/Desktop/zephyr_1.10/include/linker/kobject-rom.ld \
+ /home/sushant/Desktop/zephyr_1.10/include/linker/common-ram.ld \
+ /home/sushant/Desktop/zephyr_1.10/include/linker/kobject.ld

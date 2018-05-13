@@ -1,0 +1,20 @@
+menuconfig HCSR04
+	bool
+	prompt "HCSR04 distance measurement sensor"
+	default n
+	help
+	  Include HCSR04 drivers in system config.
+
+config HCSR04_0_NAME
+	string "Name of the HCSR04-01 Driver"
+	depends on HCSR04
+	default "HCSR04_drv"
+	help
+	  Name for the HCSR04 driver which will be used for binding.
+
+config HCSR04_1_NAME
+	string "Name of the HCSR04-02 Driver"
+	depends on HCSR04
+	default "HCSR04_drv"
+	help
+	  Name for the HCSR04 driver which will be used for binding.

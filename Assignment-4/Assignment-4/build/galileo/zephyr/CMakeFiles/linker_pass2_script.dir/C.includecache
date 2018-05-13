@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sushant/Desktop/zephyr_1.10/arch/x86/soc/intel_quark/quark_x1000/linker.ld
+autoconf.h
+-
+generated_dts_board.h
+-
+arch/x86/linker.ld
+-
+

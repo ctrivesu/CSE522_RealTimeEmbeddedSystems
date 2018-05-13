@@ -1,0 +1,34 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find crt0.o: No such file or directory
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find crtbegin.o: No such file or directory
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find -lgcc
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find -lc
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find -lgcc
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find crtend.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/i586-zephyr-elf/i586-zephyr-elf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find crt0.o: No such file or directory
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find crtbegin.o: No such file or directory
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find -lstdc++
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find -lm
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find -lgcc
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find -lc
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find -lgcc
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/i586-zephyr-elf/gcc/i586-zephyr-elf/6.2.0/real-ld: cannot find crtend.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+

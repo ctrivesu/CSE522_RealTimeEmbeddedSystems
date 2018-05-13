@@ -1,0 +1,63 @@
+/dts-v1/;
+
+/ {
+	#address-cells = <0x1>;
+	#size-cells = <0x1>;
+	model = "galileo";
+	compatible = "intel,quark_x1000";
+
+	chosen {
+		zephyr,sram = "/memory@00400000";
+		zephyr,flash = "/flash@00100000";
+		zephyr,console = "/soc/uart@f0009000";
+	};
+
+	aliases {
+		uart_0 = "/soc/uart@f0008000";
+		uart_1 = "/soc/uart@f0009000";
+	};
+
+	cpus {
+		#address-cells = <0x1>;
+		#size-cells = <0x0>;
+
+		cpu@0 {
+			device_type = "cpu";
+			compatible = "quark_x1000";
+			reg = <0x0>;
+		};
+	};
+
+	flash0: flash@00100000 {
+		reg = <0x100000 0x100000>;
+	};
+
+	sram0: memory@00400000 {
+		device_type = "memory";
+		compatible = "mmio-sram";
+		reg = <0x400000 0x2000000>;
+	};
+
+	soc {
+		#address-cells = <0x1>;
+		#size-cells = <0x1>;
+		compatible = "simple-bus";
+		ranges;
+
+		uart0: uart@f0008000 {
+			compatible = "ns16550";
+			reg = <0xf0008000 0x400>;
+			label = "UART_0";
+			status = "ok";
+			current-speed = <0x1c200>;
+		};
+
+		uart1: uart@f0009000 {
+			compatible = "ns16550";
+			reg = <0xf0009000 0x400>;
+			label = "UART_1";
+			status = "ok";
+			current-speed = <0x1c200>;
+		};
+	};
+};
